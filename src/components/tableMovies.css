@@ -1,0 +1,58 @@
+.rowStyle {
+    width: 100%;
+}
+
+.titleRowHeader {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    text-align: left;
+
+}
+
+.titleRow {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    text-align: left;
+    margin: 0;
+}
+
+.titleColumn {
+    width: 35%;
+    border: 1px solid #bbb; 
+    padding-bottom: 20px;
+}
+
+.lengthColumn {
+    width: 15%;
+    border: 1px solid #bbb;
+    padding-bottom: 20px;
+}
+
+.ratingColumn {
+    width: 15%;
+    border: 1px solid #bbb;
+    padding-bottom: 20px;
+}
+
+.genresColumn {
+    width: 20%;
+    border: 1px solid #bbb;
+    padding-bottom: 20px;
+}
+
+.genresColumn ul{
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+
+
+.awardsColumn {
+    width: 15%;
+    border: 1px solid #bbb;
+    padding-bottom: 20px;
+}
+
