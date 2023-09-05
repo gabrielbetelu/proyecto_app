@@ -17,10 +17,12 @@ componentDidMount() {
             return respuesta.json()
         })
         .then(data => {
+            console.log(data.data)
             this.setState({
                 genresInDb : data.data
             })
         })
+        .catch (e => {console.log(e)})
 } 
 
     render(){

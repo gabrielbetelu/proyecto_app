@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types';;
+import PropTypes from 'prop-types';
 
 function GenreCard(props) {
 
@@ -23,11 +23,11 @@ export default GenreCard
 
 GenreCard.propTypes = {
     atributes: PropTypes.shape({
-        genre: PropTypes.string.isRequired        
+        name: PropTypes.string.isRequired        
     })
 }
 
 GenreCard.defaultProps = {
-    genre: "Sin Genero"
+    name: "Sin Genero"
 }
   
