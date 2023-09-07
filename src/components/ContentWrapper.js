@@ -20,9 +20,9 @@ function ContentWrapper() {
                         
                 </div>
 
-                <div className='divTableMovies'>
+                <table className='divTableMovies'>
                     <TableMovies/>
-                </div>
+                </table>
 
                 {/*<!-- End of MainContent -->*/}
 

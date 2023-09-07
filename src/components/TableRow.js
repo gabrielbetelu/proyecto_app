@@ -8,16 +8,22 @@ function TableRow(props) {
         <React.Fragment>
             {/*<!-- Info Movies -->*/}
                 <tr className='.rowStyle'>
-                    <td className='titleColumn titleRow'>{ props.title }</td>
+                    
+                        <td className='titleColumn titleRow'>{ props.title }</td>
+                    
                     <td className='lengthColumn titleRow'>{ props.length }</td>
-                    <td className='ratingColumn titleRow'>{ props.rating }</td>
+                    
+                        <td className='ratingColumn titleRow'>{ props.rating }</td>
+                    
                     <td className='genresColumn titleRow'>{ props.genre ?  props.genre.name : "Sin Género" }
-                    {/*     <ul>
-                        { props.genre.map((genre) => <li>{genre}</li>) }
-                        </ul> 
-                    */}   
-                    </td>
-                    <td className='awardsColumn titleRow'>{ props.awards }</td>
+                        {/*     <ul>
+                            { props.genre.map((genre) => <li>{genre}</li>) }
+                            </ul> 
+                        */}   
+                        </td>
+                    
+                        <td className='awardsColumn titleRow'>{ props.awards }</td>
+                    
                 </tr>
                      
             {/*<!-- End of Info Movies -->*/}

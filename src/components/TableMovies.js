@@ -29,12 +29,12 @@ class InfoMovies extends Component {
             return(
                 <React.Fragment>
                     {/*<!-- Info Movies -->*/}            
-                    <table className='rowStyle'>
+                    <tbody className='rowStyle'>
                         <TableHeader/>
                         {console.log(this.state.moviesInfo)}
                         {this.state.moviesInfo.map((movie ,i)=><TableRow key={movie.title + i} {...movie}/>)}
                         <TableHeader/>
-                    </table>                       
+                    </tbody>                       
                     {/*<!-- End of Info Movies -->*/}
                 </React.Fragment>
             )

@@ -65,7 +65,7 @@ function Sidebar() {
         </ul>
         {/*<!-- End of Sidebar -->*/}
 
-        <switch>
+        <Switch>
             <Route path ='/' exact >
                     <ContentWrapper />               
             </Route>
@@ -84,7 +84,7 @@ function Sidebar() {
             <Route>
                 <NotFound/>
             </Route>
-        </switch>
+        </Switch>
         
         
      </React.Fragment>)
